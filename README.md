@@ -18,7 +18,7 @@ personal-finance-analysis/
 │   ├── monthly_expenses.png
 │   └── monthly_balance.png
 │
-├── notebooks/
+├── notebook/
 │   └── analysis.ipynb
 │
 └── README.md
@@ -75,8 +75,24 @@ Transactions were classified into four types using `np.select`:
 
 - **Expenses by Category** — identifying the main cost drivers
 - **Monthly Expense Trend** — tracking spending evolution over time
-- **Monthly Income Trend** — evaluating earnings consistency over time
 - **Monthly Balance** — net financial position (income − expenses) per month
+
+---
+
+## 📊 Visualizations
+
+### 💸 Expenses by Category
+![Expenses](https://raw.githubusercontent.com/joaolouzada12/personal-finance-analysis/main/images/expenses_category.png)
+
+---
+
+### 📈 Monthly Expenses
+![Monthly Expenses](https://raw.githubusercontent.com/joaolouzada12/personal-finance-analysis/main/images/monthly_expenses.png)
+
+---
+
+### ⚖️ Monthly Balance
+![Balance](https://raw.githubusercontent.com/joaolouzada12/personal-finance-analysis/main/images/monthly_balance.png)
 
 ---
 
@@ -123,5 +139,5 @@ jupyter notebook notebooks/analysis.ipynb
 
 ## 📌 Author
 
-Developer by **[João Louzada]**  
+Developed by **[João Louzada]**  
 [Joao Louzada - Linkedin](https://www.linkedin.com/in/jo%C3%A3o-louzada-402503219/) · [joaolouzada12 - GitHub](https://github.com/joaolouzada12)
